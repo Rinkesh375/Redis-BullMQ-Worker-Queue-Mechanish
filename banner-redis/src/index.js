@@ -30,7 +30,7 @@ app.get("/banner",async(req,res)=>{
 
 app.get("/banner/exists",async(req,res)=>{
   const response =  await redis.exists(bannerKey)
-  res.json({result:response})
+  res.json({result:!!response})
 })
 
 
