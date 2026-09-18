@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev":"node --watch ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0",
+    "mongoose": "^9.10.1"
+  }
+}
